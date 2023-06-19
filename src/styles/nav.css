@@ -1,0 +1,16 @@
+.profile{
+    height: 10;
+    width: auto;
+    background-color: aqua;
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar{
+    padding: 0;
+}
+
+:root {
+    --bs-navbar-padding-y: 0;
+    --bs-navbar-padding-x: 0;
+  }
