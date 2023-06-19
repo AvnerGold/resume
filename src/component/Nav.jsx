@@ -1,13 +1,16 @@
 import React from 'react'
 import myImage  from '../assets/images/nav-img/me.jpg'
+
 import '../styles/nav.css'
 
 export default function Nav() {
   return (
     <>
+  
+
     <div style={{ width: '100vw' }} className="profile">
 
-  <nav className="navbar navbar-expand-lg navbar-light bg-light">
+  <nav className="navbar navbar-expand-lg navbar-light ">
   <div style={{ display: 'flex', alignItems: 'center' }}>
    <img src={myImage} alt="MY Image" style={{ maxWidth: '90px', maxHeight: '150px', objectFit: 'contain', padding: '10px', borderRadius: '30%' }} />
   <p>Avner <br /> Goldberg</p>
@@ -46,6 +49,7 @@ export default function Nav() {
     </div>
   </nav>
 </div>
+   
 
 
 
