@@ -1,0 +1,24 @@
+.home-container {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    color:rgb(255, 255, 255);
+  
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 350px;
+    padding: 15px;
+  }
+
+  .home-header{
+    font-size: 25px;
+  }
+
+  /* p{
+    color: gold; !important
+  } */
+
+  

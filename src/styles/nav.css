@@ -13,11 +13,12 @@
     border-radius: 8px; /* Adjust the value as needed */
   }
 
-.navbar{
-    padding: 0;
-}
+  .profile {
+    position: relative; /* Ensure the navbar has a higher z-index than the lines */
+    z-index: 1;
+  }
 
-p {
+.profile-name {
     color: rgb(10, 138, 249);
     font-size: 20px;
     text-shadow: 0 0 10px #396eaa, 0 0 20px #396eaa, 0 0 30px #396eaa;
