@@ -1,19 +1,19 @@
 import { useState } from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import './App.css'
+import Home from './pages/Home'
 
 function App() {
 
   return (
     <>
       <BrowserRouter>
-          <Nav />
+        
           <Routes>
-          <Route path='/' element={<About />} />
-            <Route path='/shoes' element={<Shoes />} />
+          <Route path='/' element={<Home />} />
+          
            
           </Routes>
-          <Footer/>
         </BrowserRouter>
     </>
   )
