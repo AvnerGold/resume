@@ -1,16 +1,16 @@
 import React from 'react';
 import '../styles/home.css';
 import emailjs from 'emailjs-com';
-import htmlLogo from '../assets/images/home-img/html-5.gif'
-import reactLogo from '../assets/images/home-img/react.gif'
-import angularLogo from '../assets/images/home-img/angular.png'
-import nodejsLogo from '../assets/images/home-img/nodejs.png'
-import cssLogo from '../assets/images/home-img/css.png'
-import mongoLogo from '../assets/images/home-img/mongodb.png'
-import sqlLogo from '../assets/images/home-img/sql.png'
-import pythonLogo from '../assets/images/home-img/python.png'
-import csharpLogo from '../assets/images/home-img/csharp.png'
-import bootstrapLogo from '../assets/images/home-img/bootstrap.png'
+import htmlLogo from '../assets/images/home-img/logos/html-5.gif'
+import reactLogo from '../assets/images/home-img/logos/react.gif'
+import angularLogo from '../assets/images/home-img/logos/angular.png'
+import nodejsLogo from '../assets/images/home-img/logos/nodejs.png'
+import cssLogo from '../assets/images/home-img/logos/css.png'
+import mongoLogo from '../assets/images/home-img/logos/mongodb.png'
+import sqlLogo from '../assets/images/home-img/logos/sql.png'
+import pythonLogo from '../assets/images/home-img/logos/python.png'
+import csharpLogo from '../assets/images/home-img/logos/csharp.png'
+import bootstrapLogo from '../assets/images/home-img/logos/bootstrap.png'
 
 
 
@@ -96,7 +96,13 @@ export default function Home() {
         </div>
 
         <div className='neon-line'></div>
+        <div className='mail-project'>projects</div>
+        <div className='projects'>
 
+        </div>
+        <div className='neon-line'></div>
+
+        <div className='mail-header'>MAIL ME!</div>
         <form id="contact-form" onSubmit={handleSubmit}>
           <input type="hidden" name="contact_number" />
           <div className="form-group">

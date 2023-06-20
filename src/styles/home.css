@@ -18,11 +18,14 @@
     width: auto;
     background-color: #171717;
   }
-  
+
+  .mail-project,
+  .mail-header,
   .skills-header,
   .introduction-header,
   .home-header{
     font-size: 25px;
+    padding: 10px;
   }
 
 
@@ -86,6 +89,11 @@
   #contact-form {
     max-width: 400px;
     margin: 0 auto;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px #0066ff solid;
+    box-shadow: 0 0 10px #0066ff, 0 0 20px #0066ff, 0 0 30px #0066ff; /* Adjust the shadow properties as needed */
+    animation: neon-glow 1s ease-in-out infinite alternate; /* Adjust the animation properties as needed */
   }
   
   .form-group {
