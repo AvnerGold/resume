@@ -1,5 +1,6 @@
 import React from 'react';
 import '../styles/home.css';
+import emailjs from 'emailjs-com';
 import htmlLogo from '../assets/images/home-img/html-5.gif'
 import reactLogo from '../assets/images/home-img/react.gif'
 import angularLogo from '../assets/images/home-img/angular.png'
@@ -13,7 +14,42 @@ import bootstrapLogo from '../assets/images/home-img/bootstrap.png'
 
 
 
+
 export default function Home() {
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    // Replace with your emailjs service ID, template ID, and user ID
+    const serviceId = 'service_m8rhxbj';
+    const templateId = 'template_a3btjvr';
+    const userId = '7dMLC5uGxgmnjfGY6';
+
+    console.log(e.target.user_name.value);
+
+    const toName = e.target.user_name.value;
+    const fromName = e.target.user_email.value;
+    const message = e.target.message.value;
+  
+    // Set up the template parameters
+    let templateParams = {
+      to_name: toName,
+      from_name: fromName,
+      message: message,
+    };
+
+    emailjs
+      .sendForm(serviceId, templateId, e.target,userId)
+      .then((response) => {
+        console.log('Email sent successfully!', response.status, response.text);
+        // Reset the form after successful submission
+        e.target.reset();
+      })
+      .catch((error) => {
+        console.error('Error sending email:', error);
+      });
+  };
+
   return (
     <>
     <div className='home-body'>
@@ -60,6 +96,27 @@ export default function Home() {
         </div>
 
         <div className='neon-line'></div>
+
+        <form id="contact-form" onSubmit={handleSubmit}>
+          <input type="hidden" name="contact_number" />
+          <div className="form-group">
+           <label htmlFor="user_name">Name</label>
+           <input type="text" id="user_name" name="user_name" required />
+          </div>
+          <div className="form-group">
+           <label htmlFor="user_email">Email</label>
+           <input type="email" id="user_email" name="user_email" required />
+          </div>
+          <div className="form-group">
+          <label htmlFor="message">Message</label>
+          <textarea id="message" name="message" required></textarea>
+          </div>
+          <div className="form-group">
+           <input type="submit" value="Send" className="submit-button" />
+          </div>
+        </form>
+
+
 
      </div>
     </div>
