@@ -11,6 +11,7 @@ import sqlLogo from '../assets/images/home-img/logos/sql.png'
 import pythonLogo from '../assets/images/home-img/logos/python.png'
 import csharpLogo from '../assets/images/home-img/logos/csharp.png'
 import bootstrapLogo from '../assets/images/home-img/logos/bootstrap.png'
+import ya from '../assets/images/home-img/mock-up-sites/gta-web.png'
 
 
 
@@ -93,6 +94,7 @@ export default function Home() {
           <img className='python-logo' src={pythonLogo} alt="python Logo" />
           <img className='csharp-logo' src={csharpLogo} alt="csharp Logo" />
           <img className='bootstrap-logo' src={bootstrapLogo} alt="bootstrap Logo" />
+          {/* <img className='bootstrap-logo' src={ya} alt="bootstrap Logo" /> */}
         </div>
 
         <div className='neon-line'></div>
