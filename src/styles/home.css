@@ -3,22 +3,85 @@
     flex-direction: column;
     width: auto;
     color:rgb(255, 255, 255);
-  
     margin: auto;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
-    height: 350px;
+   
     padding: 15px;
+    
   }
 
+  .home-body{
+    height: 100%;
+    width: auto;
+    background-color: #171717;
+  }
+  
+  .skills-header,
+  .introduction-header,
   .home-header{
     font-size: 25px;
   }
 
+
+
+  .neon-line {
+    margin: 10px;
+    position: relative;
+    height: 2px; /* Adjust the line height as needed */
+    width: 100%; /* Line spans the entire width */
+    background-color: #0066ff; /* Blue color */
+
+  }
+  
+  .neon-line::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: -2px; /* Position the pseudo-element above the line */
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #0066ff; /* Same neon color as the line */
+    box-shadow: 0 0 10px #0066ff, 0 0 20px #0066ff, 0 0 30px #0066ff; /* Adjust the shadow properties as needed */
+    animation: neon-glow 1s ease-in-out infinite alternate; /* Adjust the animation properties as needed */
+  }
+  
+  @keyframes neon-glow {
+    0% {
+      opacity: 0.5;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
   /* p{
     color: gold; !important
   } */
+  .skills{
+    width: auto;
+    height: auto;
+  }
 
+  .bootstrap-logo,
+  .csharp-logo,
+  .python-logo,
+  .sql-logo,
+  .mongo-logo,
+  .nodejs-logo,
+  .css-logo,
+  .nodejs-logo,
+  .angular-logo,
+  .react-logo,
+  .html-logo{
+    width: 100px;
+    height: 100px;
+    z-index: 10;
+    padding: 2px;
+   margin: auto;
+  }
+  
+  
   

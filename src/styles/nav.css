@@ -11,12 +11,10 @@
     transform: translateZ(8); /* Ensures hardware acceleration for smoother animation */
     border: 15px solid rgba(0, 0, 0, 0.3); /* Adjust the values as needed */
     border-radius: 8px; /* Adjust the value as needed */
+    
   }
 
-  .profile {
-    position: relative; /* Ensure the navbar has a higher z-index than the lines */
-    z-index: 1;
-  }
+  
 
 .profile-name {
     color: rgb(10, 138, 249);

@@ -8,7 +8,7 @@ export default function Nav() {
     <>
   
 
-    <div style={{ width: '100vw' }} className="profile">
+    <div className="profile">
 
   <nav className="navbar navbar-expand-lg navbar-light ">
   <div style={{ display: 'flex', alignItems: 'center' }}>
@@ -32,10 +32,10 @@ export default function Nav() {
         </li>
         <li className="nav-item dropdown">
           <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Dropdown
+            projects
           </a>
           <ul className="dropdown-menu " aria-labelledby="navbarDropdown">
-          <li><a className="dropdown-item" href="https://gta-web-server.netlify.app">Action</a></li>
+          <li><a className="dropdown-item" href="https://gta-web-server.netlify.app">gta-web</a></li>
             <li><a className="dropdown-item" href="#">Another action</a></li>
             <li><hr className="dropdown-divider" /></li>
             <li><a className="dropdown-item" href="#">Something else here</a></li>
