@@ -8,9 +8,7 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-   
     padding: 15px;
-    
   }
 
   .home-body{
@@ -60,9 +58,7 @@
       opacity: 1;
     }
   }
-  /* p{
-    color: gold; !important
-  } */
+  
   .skills{
     width: auto;
     height: auto;
