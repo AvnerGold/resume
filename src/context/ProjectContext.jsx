@@ -7,6 +7,7 @@ export const ProjectContext = createContext();
 
 export default function ProjectContextProvider({children}){
  const [projects,SetProjects] = useState([])
+ 
  const LoadProjects = async()=>{
     try{
         let res = await fetch('./data/projects.json');

@@ -1,22 +1,26 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import '../styles/home.css';
 import emailjs from 'emailjs-com';
-import htmlLogo from '../assets/images/home-img/logos/html-5.gif'
-import reactLogo from '../assets/images/home-img/logos/react.gif'
-import angularLogo from '../assets/images/home-img/logos/angular.png'
-import nodejsLogo from '../assets/images/home-img/logos/nodejs.png'
-import cssLogo from '../assets/images/home-img/logos/css.png'
-import mongoLogo from '../assets/images/home-img/logos/mongodb.png'
-import sqlLogo from '../assets/images/home-img/logos/sql.png'
-import pythonLogo from '../assets/images/home-img/logos/python.png'
-import csharpLogo from '../assets/images/home-img/logos/csharp.png'
-import bootstrapLogo from '../assets/images/home-img/logos/bootstrap.png'
-import ya from '../assets/images/home-img/mock-up-sites/gta-web.png'
+import htmlLogo from '/images/home-img/logos/html-5.gif'
+import reactLogo from '/images/home-img/logos/react.gif'
+import angularLogo from '/images/home-img/logos/angular.png'
+import nodejsLogo from '/images/home-img/logos/nodejs.png'
+import cssLogo from '/images/home-img/logos/css.png'
+import mongoLogo from '/images/home-img/logos/mongodb.png'
+import sqlLogo from '/images/home-img/logos/sql.png'
+import pythonLogo from '/images/home-img/logos/python.png'
+import csharpLogo from '/images/home-img/logos/csharp.png'
+import bootstrapLogo from '/images/home-img/logos/bootstrap.png'
+
+import { ProjectContext } from '../context/ProjectContext';
+import Projects from '../component/Projects';
 
 
 
 
 export default function Home() {
+
+  const {projects} = useContext(ProjectContext);
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -99,6 +103,12 @@ export default function Home() {
 
         <div className='neon-line'></div>
         <div className='mail-project'>projects</div>
+        {
+            projects.map((item) => (
+            <Projects key={item.name} {...item} />
+           ))
+        }
+
         <div className='projects'>
 
         </div>

@@ -3,7 +3,7 @@
     width: auto;
     margin: 0;
     padding: 0;
-    background-image: url('../assets/images/nav-img/background.gif');
+    background-image: url('./images/nav-img/background.gif');
     background-size: cover !important;
     background-repeat: no-repeat;
     background-position: center;

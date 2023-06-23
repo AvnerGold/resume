@@ -1,5 +1,5 @@
 import React from 'react'
-import myImage  from '../assets/images/nav-img/me.jpg'
+import myImage  from '/images/nav-img/me.jpg'
 import '../styles/nav.css'
 import { Link } from 'react-router-dom'
 
