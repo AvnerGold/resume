@@ -1,11 +1,17 @@
 import React from 'react';
+//import ya from '/images/background-img/backgroundProjects/b-1.gif'
 
 
-export default function Projects({ name, header, url, img, text }) {
-    console.log(name, header, url, img, text);
+export default function Projects({background, name, header, url, img, text }) {
+    console.log( background,name, header, url, img, text);
+    const cardStyle = {
+      backgroundImage: `url(${background})`,
+      backgroundSize: 'cover'
+    };
   
     return (
-        <div className="card">
+      <div className="card project-card" style={cardStyle}>
+         <div className="project-background" style={{ backgroundImage: `url(${background})` }}></div>
         <div className="row no-gutters">
           <div className="col-md-4">
             <img src={img} className="card-img" alt={name} />

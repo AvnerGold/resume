@@ -1,5 +1,6 @@
 [
     {
+        "background":"images/home-img/backgroundProjects/b-1.gif",
         "name": "LEGO House",
         "header":"Unleash Your Creativity with Bricks!",
         "url":"https://legohouse.netlify.app/",
