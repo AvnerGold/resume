@@ -8,12 +8,14 @@
         "text": "Welcome to LEGO House, an immersive online experience that celebrates the endless possibilities of LEGO building! As the creator of this project, Dive into our collection of inspiring LEGO sets, With a seamless blend of pure CSS, HTML, and JavaScript, my website delivers a visually stunning and interactive experience. Immerse yourself in a captivating environment that mimics the joy and wonder of real-life LEGO building. From vibrant colors to seamless animations, every aspect of LEGO House is designed to bring your LEGO creations to life.\n\n Let your creativity run wild and watch your brick-filled dreams come to life!"
     },
     {
-        "background":"images/home-img/backgroundProjects/b-1.gif",
-        "name": "LEGO House",
-        "header":"Unleash Your Creativity with Bricks!",
-        "url":"https://legohouse.netlify.app/",
-        "img":"images/home-img/mock-up-sites/lego-web.png",
-        "text": "Welcome to LEGO House, an immersive online experience that celebrates the endless possibilities of LEGO building! As the creator of this project, Dive into our collection of inspiring LEGO sets, With a seamless blend of pure CSS, HTML, and JavaScript, my website delivers a visually stunning and interactive experience. Immerse yourself in a captivating environment that mimics the joy and wonder of real-life LEGO building. From vibrant colors to seamless animations, every aspect of LEGO House is designed to bring your LEGO creations to life.\n\n Let your creativity run wild and watch your brick-filled dreams come to life!"
-    }
+        "background": "images/home-img/backgroundProjects/b-2.gif",
+        "name": "GTW-Web",
+        "header": "Join the GTA Server Community",
+        "url": "https://gta-web-server.netlify.app",
+        "img": "images/home-img/mock-up-sites/gta-web.png",
+        "text": "Welcome to GTW-Web, an immersive online experience powered by Angular, specifically designed to serve as an information hub for the GTW Server community! GTW-Web leverages the power and flexibility of Angular to provide players with a comprehensive platform where they can access important server information.\n\n As an Angular project, GTW-Web ensures a seamless user experience with its responsive design, fast performance, and dynamic content rendering. It offers a user-friendly interface that allows players to easily navigate through various resources, including detailed rule explanations, FAQs, and support channels.\n\n Join the GTA-Web platform today and delve into the rich world of the GTA Server. Explore the power of Angular in action and discover how GTW-Web enhances your server experience by providing easy access to important server information and fostering community engagement."
+      }
+      
+      
 ]
 

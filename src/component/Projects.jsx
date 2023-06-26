@@ -1,12 +1,13 @@
 import React from 'react';
 //import ya from '/images/background-img/backgroundProjects/b-1.gif'
+import'../styles/projectsCard.css';
 
 
 export default function Projects({background, name, header, url, img, text }) {
     console.log( background,name, header, url, img, text);
     const cardStyle = {
       backgroundImage: `url(${background})`,
-      backgroundSize: 'cover',
+      backgroundSize: '100% 100%',
       color: "white",
       margin: "10px"
       
