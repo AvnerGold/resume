@@ -11,6 +11,8 @@ import sqlLogo from '/images/home-img/logos/sql.png'
 import pythonLogo from '/images/home-img/logos/python.png'
 import csharpLogo from '/images/home-img/logos/csharp.png'
 import bootstrapLogo from '/images/home-img/logos/bootstrap.png'
+import javascriptLogo from '/images/home-img/logos/javascript.png'
+import viteLogo from '/vite.svg'
 
 import { ProjectContext } from '../context/ProjectContext';
 import Projects from '../component/Projects';
@@ -90,6 +92,7 @@ export default function Home() {
         <div className='skills d-flex flex-wrap'>
           <img className='html-logo' src={htmlLogo} alt="HTML Logo" />
           <img className='css-logo' src={cssLogo} alt="css Logo" />
+          <img className='javascript-logo' src={javascriptLogo} alt="javascript Logo" />
           <img className='react-logo' src={reactLogo} alt="react Logo" />
           <img className='angular-logo' src={angularLogo} alt="angular Logo" />
           <img className='nodejs-logo' src={nodejsLogo} alt="nodejs Logo" />
@@ -98,6 +101,7 @@ export default function Home() {
           <img className='python-logo' src={pythonLogo} alt="python Logo" />
           <img className='csharp-logo' src={csharpLogo} alt="csharp Logo" />
           <img className='bootstrap-logo' src={bootstrapLogo} alt="bootstrap Logo" />
+          <img className='vite-logo' src={viteLogo} alt="vite Logo" />
           {/* <img className='bootstrap-logo' src={ya} alt="bootstrap Logo" /> */}
         </div>
 
