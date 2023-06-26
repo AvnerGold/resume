@@ -38,7 +38,7 @@ export default function Nav() {
           <li><a className="dropdown-item" href="https://gta-web-server.netlify.app">gta-web</a></li>
             <li><a className="dropdown-item" href="https://legohouse.netlify.app/">Lego-web-store</a></li>
             <li><hr className="dropdown-divider" /></li>
-            <li><a className="dropdown-item" href="#">Something else here</a></li>
+            <li><a className="dropdown-item" href="https://weather-locator-api.netlify.app/">weather-web</a></li>
           </ul>
         </li>
         <li className="nav-item">

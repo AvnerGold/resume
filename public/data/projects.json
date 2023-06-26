@@ -14,7 +14,16 @@
         "url": "https://gta-web-server.netlify.app",
         "img": "images/home-img/mock-up-sites/gta-web.png",
         "text": "Welcome to GTW-Web, an immersive online experience powered by Angular, specifically designed to serve as an information hub for the GTW Server community! GTW-Web leverages the power and flexibility of Angular to provide players with a comprehensive platform where they can access important server information.\n\n As an Angular project, GTW-Web ensures a seamless user experience with its responsive design, fast performance, and dynamic content rendering. It offers a user-friendly interface that allows players to easily navigate through various resources, including detailed rule explanations, FAQs, and support channels.\n\n Join the GTA-Web platform today and delve into the rich world of the GTA Server. Explore the power of Angular in action and discover how GTW-Web enhances your server experience by providing easy access to important server information and fostering community engagement."
-    }
+    },
+    {
+        "background": "images/home-img/backgroundProjects/b-3.gif",
+        "name": "weather-Web",
+        "header": "Weather Forecast Web",
+        "url": "https://weather-locator-api.netlify.app/",
+        "img": "images/home-img/mock-up-sites/weather-web.png",
+        "text": "Welcome to the Weather Forecast Web, a powerful online platform built with React and API integration to provide real-time weather information for cities worldwide! With Weather Forecast Web, you can easily check the current weather conditions and forecast for any desired location.\n\n Leveraging React and API integration, the Weather Forecast Web ensures a seamless user experience with its intuitive design, dynamic content, and accurate weather data. Simply enter the name of a city, and the app will display essential weather details such as temperature, weather description, and more.\n\n Explore the Weather Forecast Web today and stay informed about the weather conditions in your area or any other place you're interested in. Experience the power of React and API integration in action and enhance your weather tracking capabilities."
+      }
+      
       
       
 ]
