@@ -6,7 +6,10 @@ export default function Projects({background, name, header, url, img, text }) {
     console.log( background,name, header, url, img, text);
     const cardStyle = {
       backgroundImage: `url(${background})`,
-      backgroundSize: 'cover'
+      backgroundSize: 'cover',
+      color: "white",
+      margin: "10px"
+      
     };
   
     return (
