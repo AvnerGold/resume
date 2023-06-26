@@ -36,12 +36,12 @@ export default function Home() {
     const fromName = e.target.user_email.value;
     const message = e.target.message.value;
   
-    // Set up the template parameters
-    let templateParams = {
-      to_name: toName,
-      from_name: fromName,
-      message: message,
-    };
+    // // Set up the template parameters
+    // let templateParams = {
+    //   to_name: toName,
+    //   from_name: fromName,
+    //   message: message,
+    // };
 
     emailjs
       .sendForm(serviceId, templateId, e.target,userId)
