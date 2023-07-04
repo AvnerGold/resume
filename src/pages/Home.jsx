@@ -85,8 +85,8 @@ export default function Home() {
             </p>
           </div>
         </div>
-
-        <div className='neon-line'></div>
+        {/* ///neon */}
+        <div className='neon-line'></div>///neon
 
           <div className='skills-header'>skills</div>
         <div className='skills d-flex flex-wrap'>

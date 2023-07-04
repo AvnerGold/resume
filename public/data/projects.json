@@ -8,7 +8,7 @@
         "text": "Welcome to LEGO House, an immersive online experience that celebrates the endless possibilities of LEGO building! As the creator of this project, Dive into our collection of inspiring LEGO sets, With a seamless blend of pure CSS, HTML, and JavaScript, my website delivers a visually stunning and interactive experience. Immerse yourself in a captivating environment that mimics the joy and wonder of real-life LEGO building. From vibrant colors to seamless animations, every aspect of LEGO House is designed to bring your LEGO creations to life.\n\n Let your creativity run wild and watch your brick-filled dreams come to life!"
     },
     {
-        "background": "images/home-img/backgroundProjects/b-2.gif",
+        "background": "images/home-img/backgroundProjects/b-2.gif", 
         "name": "GTW-Web",
         "header": "Join the GTA Server Community",
         "url": "https://gta-web-server.netlify.app",
